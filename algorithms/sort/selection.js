@@ -3,9 +3,9 @@ const swap = (arr, idx1, idx2) => {
 }
 
 
-function selectionSort(arr) {
+function selection(arr) {
   let smallestIndex
-  
+
   for (let i = 0; i < arr.length; i++) {
     smallestIndex = i;
 
